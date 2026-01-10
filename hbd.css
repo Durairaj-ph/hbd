@@ -1,0 +1,27 @@
+*{box-sizing: border-box;}
+body{margin: 0;height: auto;width: 100vw;}
+/*first section*/
+.first-section{background-color: pink;height: 100vh;width:100%;display:flex;flex-direction: column;justify-content: center;align-items: center;text-align: center;}
+.modal-box{height: 100%;width: 100%; display: flex;flex-direction: column;align-items: center;}
+.gift-btn{height: 10%;width:40% ;background-color: azure;border-radius: 5px;font-size: 2rem;margin-top: 6%;border: 2px solid white;animation: clockwise-colorshift 1s linear infinite;}
+.fun-msg{background-color: rgb(250, 100, 200);height:350px;width:100%;margin-top: 5%;opacity: 0;position: relative;}
+.msg-txt{animation: fadein 40s ease-in-out;opacity: 0;}
+@keyframes fadein{0%{opacity: 0;}100%{opacity: 1;}}
+.close-btn{background-color: white;color: red;width: 6%;position: absolute;top:0.1%;left:94%}
+h3{font-family: 'Great Vibes', cursive;font-size: 2rem;margin-bottom: 0;}
+#modal:checked~.fun-msg{opacity: 1;}
+.meme{margin-top: 10%;object-fit: cover;}
+/*animation*/
+@keyframes clockwise-colorshift{
+    0%{border-bottom: 2px solid red;}
+    25%{border-left: 2px solid red;border-top: 2px solid red;}
+    50%{border-top: 2px solid red;border-right: 2px solid red;}
+    75%{border-right: 2px solid red;border-bottom: 2px solid red;}
+    100%{border-bottom: 2px solid red;}
+    
+}
+
+
+/*second section*/
+
+   
