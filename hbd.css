@@ -1,7 +1,7 @@
 *{box-sizing: border-box;}
 html, body{margin: 0;padding: 0;overflow-x: hidden;}
 /*first section*/
-.first-section{background-color: rgb(255, 210, 251);color: white;height: 100vh;width:100%;display:flex;flex-direction: column;justify-content: flex-start;align-items: center;text-align: center;margin: 0;}
+.first-section{background-color: rgb(255, 210, 251);color: white;height: 100dvh;width:100%;display:flex;flex-direction: column;justify-content: flex-start;align-items: center;text-align: center;margin: 0;}
 .card-1{background-color: rgb(238, 140, 238);height: 95%;width: 90%;margin-top: 5%;border-radius: 1%;}
 .modal-box{height: 100%;width: 100%; display: flex;flex-direction: column;align-items: center;}
 .gift-btn{height: 10%;width:40% ;padding-top: 2%;  background-color: rgb(255, 255, 255);border-radius: 5px;font-size: 2rem;margin-top: 6%;border: 2px solid white;animation: beat 2s ease-in-out infinite;border: 1px double rgb(247, 72, 188);}
@@ -33,7 +33,7 @@ h3{font-family: 'Great Vibes', cursive;font-size: 3rem;margin-bottom: 0;}
 }
 
 /*second section*/
-.second-section{height: 100vh;width: 100%;background-color: rgb(212, 58, 58);color: rgb(255, 255, 255);margin: 0;display: flex;justify-content: center;align-items: center;}
+.second-section{height: 100dvh;width: 100%;background-color: rgb(212, 58, 58);color: rgb(255, 255, 255);margin: 0;display: flex;justify-content: center;align-items: center;}
 .card-2{height: 90%;width: 95%;background-color: rgb(255, 100, 100);border-radius: 1%;}
 .card-2 h2{font-size: 2.5rem;margin: 5%;letter-spacing: 1px;}
 .card-2 strong{font-size: 5.1rem;position: relative;}
@@ -46,6 +46,7 @@ h3{font-family: 'Great Vibes', cursive;font-size: 3rem;margin-bottom: 0;}
 }
 
 /*third section*/
-.third-section{height: 100vh;width: 100%;background-color: rgb(27, 200, 212);color: white;}
+.third-section{height: 100dvh;width: 100%;background-color: rgb(27, 200, 212);color: white;}
 
    
+
