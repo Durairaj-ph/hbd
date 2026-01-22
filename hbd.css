@@ -1,14 +1,14 @@
 *{box-sizing: border-box;}
 html, body{margin: 0;padding: 0;overflow-x: hidden;}
 /*first section*/
-.first-section{background-color: rgb(255, 210, 251);color: white;height: 100svh;width:100%;display:flex;flex-direction: column;justify-content: flex-start;align-items: center;text-align: center;margin: 0;}
+.first-section{background-color: rgb(255, 210, 251);color: white;height: 100vh;width:100%;display:flex;flex-direction: column;justify-content: flex-start;align-items: center;text-align: center;margin: 0;}
 .card-1{background-color: rgb(238, 140, 238);height: 95%;width: 90%;margin-top: 5%;border-radius: 1%;}
 .modal-box{height: 100%;width: 100%; display: flex;flex-direction: column;align-items: center;}
 .gift-btn{height: 10%;width:30% ;padding-top: 4%;  background-color: rgb(255, 255, 255);border-radius: 5px;font-size: 2rem;margin-top: 6%;border: 2px solid white;animation: beat 2s ease-in-out infinite;border: 1px double rgb(247, 72, 188);}
 .fun-msg{background-color: rgb(252, 137, 214);height:350px;width:100%;margin-top: 5%;opacity: 0;position: relative;z-index: 1;border-radius: 2%;border: 1px solid white;}
-.msg-txt{animation: fadein 30s ease-in-out;opacity: 1;font-size: 1.3rem;}
+.msg-txt{animation: fadein 35s ease-in-out;opacity: 1;font-size: 1.3rem; font-family: 'Noto Sans Tamil', sans-serif;}
 @keyframes fadein{0%{opacity: 0;}100%{opacity: 1;}}
-.close-btn{background-color: white;color: red;width: 6%;position: absolute;top:8px;right:8px;}
+.close-btn{background-color: white;color: red;width: 7%;position: absolute;top:8px;right:8px;}
 h3{font-family: 'Great Vibes', cursive;font-size: 3rem;margin-bottom: 0;}
 #modal:checked~.fun-msg{opacity: 1;}
 .meme{margin-top: 10%;object-fit: cover;max-width: 90%;}
@@ -33,11 +33,11 @@ h3{font-family: 'Great Vibes', cursive;font-size: 3rem;margin-bottom: 0;}
 }
 
 /*second section*/
-.second-section{height: 100svh;width: 100%;background-color: rgb(212, 58, 58);color: rgb(255, 255, 255);margin: 0;display: flex;justify-content: center;align-items: center;}
+.second-section{height: 100vh;width: 100%;background-color: rgb(212, 58, 58);color: rgb(255, 255, 255);margin: 0;display: flex;justify-content: center;align-items: center;}
 .card-2{height: 90%;width: 95%;background-color: rgb(255, 100, 100);border-radius: 1%;}
 .card-2 h2{font-size: 2.5rem;margin: 5%;letter-spacing: 1px;}
 .card-2 strong{font-size: 5.1rem;position: relative;}
-.heart-beat{position: absolute;top:165%;left: 72%;  font-size: 4rem;animation: beating 0.5s linear infinite;}
+.heart-beat{position: absolute;top:173%;left: 72%;  font-size: 4rem;animation: beating 0.5s linear infinite;}
 /*animation*/
 @keyframes beating{
     0%{font-size: 3rem;}
@@ -46,16 +46,40 @@ h3{font-family: 'Great Vibes', cursive;font-size: 3rem;margin-bottom: 0;}
 }
 
 /*third section*/
-.third-section{height: 100svh;width: 100%;background-color:#8220c9;color: white;display: flex;margin: 0;justify-content:center;align-items: center;}
+.third-section{height: 100vh;width: 100%;background-color:#8220c9;color: white;display: flex;margin: 0;justify-content:center;align-items: center;}
 .card-3{height: 90%;width: 95%;background-color:#cb70ff;border-radius: 1%;display: flex;margin: 0;justify-content:space-around;align-items: center;gap: 5%;}
 .card-3 h4{font-family: 'Pacifico', cursive;font-size: 6rem;margin:2%;display: flex;flex-direction: column;align-items: center;color:gold;text-shadow: 2px 2px 0px #000000;}
 .card-3 p{font-family: 'Pacifico', cursive;font-size: 2.2rem;}
 
 /*fourth section*/
-.fourth-section{height: 100svh;width: 100%;background-image: url("https://files.idyllic.app/files/static/3199145");
+.fourth-section{height: 100vh;width: 100%;background-image: url("https://files.idyllic.app/files/static/3199145");
                background-size: cover;display: flex;margin: 0;justify-content:center;align-items: center;}
 .card-4{height: 90%;width: 95%;background-color:transparent;border-radius: 1%;display: flex;margin: 0;justify-content:space-between;align-items: center;flex-direction: column;}
 .card-4 p{color: rgb(221, 11, 11);font-family: 'Playfair Display', serif;font-size: 2.2rem;opacity: 0.6;margin-top: 20%;}
 .sub-para{margin-left: 40%;}
 .card-4 strong{font-size: 5rem;font-family:'Pacifico',cursive, sans-serif;}
+/*fifth section*/
+.fifth-section{height: 100vh;width: 100%;background-color: rgb(255, 129, 45);display: flex;flex-direction: column;justify-content: flex-start;align-items: center;text-align: center;}
+.card-5{height: 90%;width: 95%;display: flex;flex-direction: column;align-items: center;margin-top: 10%;background-color: rgb(252, 192, 114);border-radius: 1%;}
+.card-5 p{margin: 3% 5%;font-size: 1.8rem;font-family:'Pacifico',cursive, sans-serif;}
+.modal-rel{height: 100%;width:100%;display: flex;flex-direction: column;justify-content: center;align-items: center;position: relative;z-index: 1;}
+.gift-btn-2{height: 10%;width:30%;background-color: rgb(240, 239, 238);display: flex;align-items: center;justify-content: center;margin-top: -20%;margin-bottom: 20%;font-size: 3rem;border-radius: 5%;border: 1px solid rgb(255, 136, 0);}
+.close-btn-2{background-color: white;color: red;width: 7%;position: absolute;top:8px;right:8px;border-radius: 5%;}
+.modal-abs{height: 45%;width: 100%;opacity: 0;background-color: rgb(252, 141, 141);display: flex;position: relative;justify-content: center;border-radius: 2%;}
+.video-2{margin-top: 5%;}
+#modal-2:checked~.modal-abs{opacity: 1;}
+.smile-emoji{width:90%;height:60%;z-index: -1;position: absolute;top: 30%;}
+/*magic css controls diabling*/
+video::-webkit-media-controls-fullscreen-button {
+  display: none;
+}
+
+video::-webkit-media-controls-download-button {
+  display: none;
+}
+
+video::-webkit-media-controls-playback-rate-button {
+  display: none;
+}
+
 
